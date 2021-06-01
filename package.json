@@ -20,5 +20,10 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "logsync": "^0.3.0",
+    "reflecter": "^0.5.2",
+    "semver": "^7.3.5"
   }
 }

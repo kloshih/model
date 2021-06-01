@@ -2,11 +2,11 @@
 const Model = require('./lib/model')
 
 Model.Dependency = require('./lib/dependency')
-Model.Typedef = require('./lib/typedef')
+Model.Type = require('./lib/type')
 Model.Indexdef = require('./lib/indexdef')
-Model.Propdef = require('./lib/propdef')
-Model.Propdef.Value = require('./lib/propdef.value')
-Model.Propdef.One = require('./lib/propdef.one')
-Model.Propdef.Many = require('./lib/propdef.many')
+Model.Prop = require('./lib/prop')
+Model.Prop.Value = require('./lib/prop.value')
+Model.Prop.One = require('./lib/prop.one')
+Model.Prop.Many = require('./lib/prop.many')
 
 module.exports = Model;
